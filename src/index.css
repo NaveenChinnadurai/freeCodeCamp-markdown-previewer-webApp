@@ -7,3 +7,39 @@
 #root{
     height: 100vh;
 }
+
+p{
+    margin:10px 0;
+}
+pre{
+    width:100%;
+    background-color:white;
+    margin:10px 0;
+    padding: 10px;
+}
+code{
+    background-color:white;
+    padding: 5px;
+    margin:0;
+}
+blockquote{
+    padding: 0 20px;
+}
+blockquote>p{
+    border-left: 3px solid rgb(67, 5, 129);
+    padding:6px 5px;
+}
+table{
+    border-collapse: collapse;
+    border:1px solid black ;
+}
+td,th{
+    border:1px solid black;
+    padding: 5px;
+}
+ul,ol{
+    padding: 10px 20px;
+}
+img{
+    width: 100%;
+}
